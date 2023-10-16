@@ -2475,7 +2475,7 @@ SUBROUTINE SrvD_UpdateDiscState( t, u, p, x, xd, z, OtherState, m, ErrStat, ErrM
 !     CALL StC_UpdateDiscState( t, m%u_BStC(1,j), p%BStC(j), x%BStC(j), xd%BStC(j), z%BStC(j), OtherState%BStC(j), m%BStC(j), ErrStat, ErrMsg )
 !     call SetErrStat(ErrStat2,ErrMsg2,ErrStat,ErrMsg,RoutineName)
 !  enddo
-!  do j=1,p%NumNStC       ! Nacelle
+!  do j=1,p%NumNStC       ! NacelleL
 !     CALL StC_UpdateDiscState( t, m%u_NStC(1,j), p%NStC(j), x%NStC(j), xd%NStC(j), z%NStC(j), OtherState%NStC(j), m%NStC(j), ErrStat, ErrMsg )
 !     call SetErrStat(ErrStat2,ErrMsg2,ErrStat,ErrMsg,RoutineName)
 !  enddo
