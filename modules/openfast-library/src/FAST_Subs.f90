@@ -637,6 +637,7 @@ SUBROUTINE FAST_InitializeAll( t_initial, p_FAST, y_FAST, m_FAST, ED, BD, SrvD, 
                 Init%InData_SrvD%NumBeam    = IfW%p%lidar%NumBeam
                 Init%InData_SrvD%NumPulseGate = IfW%p%lidar%NumPulseGate
                 Init%InData_SrvD%PulseSpacing = IfW%p%lidar%PulseSpacing 
+                Init%InData_SrvD%URefLid= IfW%p%lidar%URefLid
                 
         END IF
 
